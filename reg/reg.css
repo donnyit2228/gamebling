@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #fff;   
+}
+
+.main {
+    background: #000;
+    min-height: 600px;
+    height: 100vh;
+}
+
+.main-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* padding-left: 120px; */
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.login-obolochka {
+    width: 500px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 4px solid #222;
+    background: #000;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.login-name {
+    word-spacing: 0px;
+    cursor: pointer;
+    color:#BCBCBC;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.input-login {
+    width: 400px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 2px solid #222;
+    display: flex;
+    margin-left: 40px;
+    background: #000;
+    margin-top: 10px;
+    padding-left: 10px;
+    color:#fff;
+}
+
+.login-password {
+    word-spacing: 0px;
+    cursor: pointer;
+    color:#BCBCBC;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.input-password {
+    width: 400px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 2px solid #222;
+    display: flex;
+    margin-left: 40px;
+    background: #000;
+    margin-top: 10px;
+    padding-left: 10px;
+    color:#fff;
+    padding-right: 100px;
+}
+
+.nav-reg1 {
+    color: #222;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.nav-reg-btn1 {
+    width: 360px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 0px 90px;
+    background: #FBED10;
+    margin-left: 60px;
+    transition: 0.4s;
+    margin-top: 100px;
+}
+
+.nav-reg-btn1:hover{
+    background: #e4d828;
+}
+
+.forget-password {
+    word-spacing: 0px;
+    cursor: pointer;
+    color:#BCBCBC;
+    display: flex;
+    transition: 0.4s;
+}
+
+.forget-password:hover {
+    color:#fff; 
+}
+
+.registr {
+    word-spacing: 0px;
+    cursor: pointer;
+    color:#BCBCBC;
+    display: flex;
+    transition: 0.4s;
+}
+
+.registr:hover {
+    color:#FFF;
+}
+
+.faq {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+}
